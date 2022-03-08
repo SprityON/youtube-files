@@ -15,7 +15,7 @@ function spamCheck(msg, set, time) {
                 u.times++
                 u.time = Date.now()
             } else {
-                // if u.time is above 'time' variable, reset it
+                // if u.time is above 'time' parameter, reset it
                 u.time = Date.now()
                 u.times = 1
             }
