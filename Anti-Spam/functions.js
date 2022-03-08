@@ -1,4 +1,3 @@
-
 function spamCheck(msg, set, time) {
     // go through every user in the set Object
     for (let u of set) {
